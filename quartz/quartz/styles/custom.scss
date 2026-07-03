@@ -1,0 +1,23 @@
+@use "./variables.scss" as *;
+
+:root {
+  --content-link: #c46a4a;
+  --content-link-hover: #b05a38;
+}
+
+:root[saved-theme="dark"] {
+  --content-link: #dba568;
+  --content-link-hover: #c89054;
+}
+
+article a {
+  color: var(--content-link);
+
+  &:hover {
+    color: var(--content-link-hover);
+  }
+
+  &.internal {
+    background-color: color-mix(in srgb, var(--content-link) 15%, transparent);
+  }
+}
