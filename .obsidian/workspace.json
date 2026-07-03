@@ -25,10 +25,14 @@
             "id": "4361ccdb695a6529",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/Arctic Slate 配色配方.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "Arctic Slate 配色配方"
             }
           }
         ],
@@ -207,6 +211,8 @@
   },
   "active": "4361ccdb695a6529",
   "lastOpenFiles": [
+    "content/aaa.md",
+    "content/Arctic Slate 配色配方.md",
     "published/index.md",
     "quartz/public/404.html",
     "quartz/public/111.html",
@@ -251,8 +257,6 @@
     "quartz/node_modules/@types/pretty-time/README.md",
     "quartz/node_modules/@types/node/README.md",
     "quartz/node_modules/@types/ms/README.md",
-    "quartz/node_modules/@clack/prompts/README.md",
-    "quartz/node_modules/@clack/prompts/CHANGELOG.md",
     "quartz/docs/Canvas.canvas",
     "published/quartz/docs/Canvas.canvas"
   ]
