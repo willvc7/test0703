@@ -30,7 +30,7 @@ jobs:
         run: npm ci
         working-directory: quartz
       - name: Install plugins
-        run: npx quartz plugin install
+        run: npx quartz plugin install --from-config
         working-directory: quartz
       - name: Build Quartz
         run: npx quartz build --directory ${{ github.workspace }}/content
