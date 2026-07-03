@@ -18,3 +18,4 @@ private/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
+/.obsidian/workspace.json
