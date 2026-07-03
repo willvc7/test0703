@@ -1,17 +1,28 @@
-/.obsidian/workspace.json
-/.obsidian/app.json
-/.obsidian/cache/
+# Obsidian (機器相關設定，不進版控)
+.obsidian/
+
+# 但保留共用設定供團隊同步
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+
+# Quartz 外掛快取 (個別安裝的外掛套件，非上游原始碼)
+quartz/.quartz/
+
+# OS 垃圾檔
 Thumbs.db
 .directory
-/.trash/
-/.obsidian/plugins/*/data.json
 .DS_Store
+
+# 專案快取/輸出
 node_modules
 public
 prof
 tsconfig.tsbuildinfo
 /.quartz-cache
+quartz/**/.quartz-cache
 private/
+.trash/
+
+# Replit（如有使用）
 /.replit
 replit.nix
-quartz/**/.quartz-cache
