@@ -1,6 +1,5 @@
 # Obsidian (機器相關設定，不進版控)
-.obsidian/
-
+.obsidian/*
 # 但保留共用設定供團隊同步
 !.obsidian/community-plugins.json
 !.obsidian/core-plugins.json
