@@ -30,10 +30,10 @@ jobs:
         run: npm ci
         working-directory: quartz
       - name: Install plugins
-        run: npm run quartz -- plugin install --from-config
+        run: node ./quartz/bootstrap-cli.mjs plugin install --from-config
         working-directory: quartz
       - name: Build Quartz
-        run: npm run quartz -- build --directory ${{ github.workspace }}/content
+        run: node ./quartz/bootstrap-cli.mjs build --directory ${{ github.workspace }}/content
         working-directory: quartz
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
