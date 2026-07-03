@@ -33,7 +33,7 @@ jobs:
         run: npx quartz plugin install
         working-directory: quartz
       - name: Build Quartz
-        run: npx quartz build
+        run: npx quartz build --directory ../content
         working-directory: quartz
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
